@@ -141,55 +141,40 @@ nav{
 
 .blog-card{
     height: 288px;
-    width: 40%;
+    /* width: 40%; */
     background-color: white;
     border-radius: 70px 10px 10px 10px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     margin-right: 50px;
+    display: flex;
 }
 
-.blog-content{
-    float: right;
-    margin-right: 40px;
-    margin-top: 20px;;
-}
 
-.blog-image{
-    float: left;
-    
-}
 
-.blog-content h6 {
-    padding-top: 10px;
-    color: #3400FF;
-}
 .blog-content h3 {
     margin: 15px 0;
 }
 
-.blog-bottom{
-    float: left;
-    margin-left: 40px;
-    margin-top: 10px;
-}
 
 .blog-card-bottom-image{
     border: 2px solid white;
     border-radius: 50%;
 }
 
-
-.blog-author{
-    font-size: small;
-    float: right;
-    margin-top: 10px;
-    margin-right: 20px;
-    font-weight: bold;
+.blog-content {
+    padding: 1rem;
 }
 
-.blog-card{
-    float: left;
+.blog-bottom {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
 }
+.blog-bottom img{
+    margin-right: 1rem;
+}
+
+
 
 .blog-cards{
     display: flex;
@@ -201,6 +186,7 @@ nav{
     background-color: #E9EDFF;
     margin-top: 50px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
 }
 
 .faq-image{
@@ -235,23 +221,19 @@ nav{
     margin-top: 10px;
 }
 
+
+/* download section */
 .download-section{
     height: 265px;
     background-color: white;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
-.download-content{
-    float: left;
-    margin-left: 90px;
-    margin-top: 95px;
-}
 
-.download-email{
-    float: right;
-    margin-right: 250px;
-    margin-top: 100px;
-}
 
 .download-content h1{
     font-weight: bold;
@@ -260,12 +242,7 @@ nav{
     font-weight: normal;
 }
 
-.download-email{
-    display: flex;
-    flex-direction: row;
-    padding-left: 200px;
-    padding-bottom: 60px;
-}
+
 
 form {
     display:flex;
